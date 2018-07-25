@@ -12,3 +12,15 @@ downloadImageExtensions = ".jpg"
 
 # decklist folder
 decklistFolder = "DeckLists"
+
+# empty json deck location
+emptyDeckLoc = "Resources/emptyDeck.json"
+
+# dummy json card location
+dummyCardLoc = "Resources/dummyCard.json"
+
+# dummy deck entry location
+dummyEntry = "Resources/dummyDeckEntry.json"
+
+# the url used for the backs of magic cards
+BackURL = 'https://i.imgur.com/0lQuqfe.jpg'

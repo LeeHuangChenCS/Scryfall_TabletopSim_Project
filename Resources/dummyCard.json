@@ -1,0 +1,16 @@
+{
+  "Name": "Card",
+  "Nickname": "Deeproot Waters",
+  "Transform": {
+    "posX": 0.0,
+    "posY": 0.0,
+    "posZ": 0.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "CardID": 100
+}

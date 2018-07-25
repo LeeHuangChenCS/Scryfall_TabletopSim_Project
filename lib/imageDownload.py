@@ -172,8 +172,8 @@ def download_image(card_name):
         # check if the card requires any tokens
         get_relevant_tokens(card, downloads)
 
-        # download all of the images required by this card
-        download_images_from_array(downloads)
+        # # download all of the images required by this card
+        # download_images_from_array(downloads)
 
         # adds the download information into the dictionary
         cache_dict[card_name] = downloads
@@ -186,6 +186,11 @@ def download_images_from_decklist(decklist):
     for entry in decklist:
         card_name = entry[1]
         download_image(card_name)
+
+def get_cache():
+    cache_dir = os.path.join(conf.cache_folder, conf.cache_filename)
+    cache_dict = pickle.load(open(cache_dir, "rb"))
+    return cache_dict
 
 
 def test_print_cache():

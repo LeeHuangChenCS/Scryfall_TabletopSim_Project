@@ -29,18 +29,24 @@ def download_image(card_name):
         scryfall_card_name = card.name()
         print(scryfall_card_name)
 
+        # check if the card requires any tokens
+        oracle_text = card.oracle_text()
+        if "token" in oracle_text:
+            time.sleep(0.1)
+            tokens = sc.cards.Search(q="t:token set:t"+card.set_code())
+            print(tokens.total_cards())
+            print(tokens.data_tuple(0))
 
-        # print(card.card_faces())
 
-        # check if the cards have closely related cards
-        all_parts = []
-        try:
-            all_parts = card.all_parts()
-        except KeyError:
-            print("no related cards for", card_name)
-            pass
 
-        print(all_parts)
+        # # check if the cards have closely related cards
+        # all_parts = []
+        # try:
+        #     all_parts = card.all_parts()
+        # except KeyError:
+        #     print("no related cards for", card_name)
+        #     pass
+        # print(all_parts)
 
         # check if the card is a double faced card
         faces = []
@@ -99,7 +105,9 @@ def download_images_from_decklist(decklist):
 
 def test():
     #download_image("Negate")
-    download_image("Abhorrent Overlord")
+    #download_image("Adorned Pouncer")
+    #download_image("Adorned Pouncer Token")
+    download_image("Deeproot Waters")
     cache_dir = os.path.join(conf.cache_folder, conf.cache_filename)
     cache_dict = pickle.load(open(cache_dir, "rb"))
     print(cache_dict)

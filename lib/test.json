@@ -1,0 +1,94 @@
+{
+  "ObjectStates": [
+    {
+      "Transform": {
+        "posX": -0.0,
+        "posY": 1.0,
+        "posZ": -0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Name": "DeckCustom",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Nickname": "Deeproot Waters",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "CardID": 100
+        },
+        {
+          "Name": "Card",
+          "Nickname": "Deeproot Waters",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "CardID": 200
+        }
+      ],
+      "DeckIDs": [
+        100,
+        200
+      ],
+      "CustomDeck": {
+        "1": {
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "FaceURL": "D:\\Lee\\Files\\Program\\Python\\Scryfall_TabletopSim_Project\\Resources\\CardImages\\Aberrant_Researcher.jpg",
+          "BackURL": "http://www.frogtown.me/images/gatherer/CardBack.jpg"
+        },
+        "2": {
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "FaceURL": "D:\\Lee\\Files\\Program\\Python\\Scryfall_TabletopSim_Project\\Resources\\CardImages\\Adorned_Pouncer.jpg",
+          "BackURL": "http://www.frogtown.me/images/gatherer/CardBack.jpg"
+        }
+      }
+    },
+    {
+      "Transform": {
+        "posX": -4.0,
+        "posY": 1.0,
+        "posZ": -0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Name": "Card",
+      "Nickname": "Token",
+      "CardID": 117,
+      "CustomDeck": {
+        "1": {
+          "NumWidth": 5,
+          "NumHeight": 4,
+          "FaceURL": "http://www.frogtown.me/tts/deckAssets/scauoewjxbsglmyu0.jpg",
+          "BackURL": "http://www.frogtown.me/images/gatherer/CardBack.jpg"
+        }
+      }
+    }
+  ]
+}

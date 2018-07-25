@@ -107,6 +107,7 @@ class Insert_Decklist:
         imageDownload.download_images_from_decklist(maindeck)
         print("Downloading Images for Sideboard...")
         imageDownload.download_images_from_decklist(sideboard)
+        imageDownload.test_print_cache()
 
 
 if __name__ == '__main__':

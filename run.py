@@ -1,8 +1,8 @@
-from lib import deckList
-import os
+from lib import deckAssemblerGUI
+
 
 def main():
-    pass
+    deckAssemblerGUI.vp_start_gui()
 
 
 if __name__ == "__main__":

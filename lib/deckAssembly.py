@@ -27,6 +27,11 @@ def createDeck(maindeck, sideboard, cache, filedir):
     sideboard_json = deck["ObjectStates"][1]
     tokens_json = deck["ObjectStates"][2]
 
+    # # set names for the decks
+    # maindeck_json["Name"] = "Deck"
+    # sideboard_json["Name"] = "Sideboard"
+    # tokens_json["Name"] = "Tokens"
+
     image_id = 1
     for i, decklist in enumerate([maindeck, sideboard]):
 

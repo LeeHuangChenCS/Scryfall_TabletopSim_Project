@@ -24,3 +24,6 @@ dummyEntry = "Resources/dummyDeckEntry.json"
 
 # the url used for the backs of magic cards
 BackURL = 'https://i.imgur.com/0lQuqfe.jpg'
+
+# the location of the saved folder
+savedFolderFile = "Resources/savedFolder.txt"

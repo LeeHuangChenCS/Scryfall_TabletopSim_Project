@@ -28,10 +28,22 @@ def download_image(card_name):
 
         scryfall_card_name = card.name()
         print(scryfall_card_name)
-        faces = []
+
 
         # print(card.card_faces())
 
+        # check if the cards have closely related cards
+        all_parts = []
+        try:
+            all_parts = card.all_parts()
+        except KeyError:
+            print("no related cards for", card_name)
+            pass
+
+        print(all_parts)
+
+        # check if the card is a double faced card
+        faces = []
         try:
             faces = card.card_faces()
         except KeyError:
@@ -78,13 +90,22 @@ def download_image(card_name):
     pickle.dump(cache_dict, open(cache_dir, "wb"))
 
 
+# given a decklist (in the format of nested lists), download all the images needed for the deck
+def download_images_from_decklist(decklist):
+    for entry in decklist:
+        card_name = entry[1]
+        download_image(card_name)
+
+
 def test():
-    download_image("Negate")
+    #download_image("Negate")
+    download_image("Abhorrent Overlord")
     cache_dir = os.path.join(conf.cache_folder, conf.cache_filename)
     cache_dict = pickle.load(open(cache_dir, "rb"))
     print(cache_dict)
 
 
 if __name__ == "__main__":
+    os.chdir("..")
     test()
 

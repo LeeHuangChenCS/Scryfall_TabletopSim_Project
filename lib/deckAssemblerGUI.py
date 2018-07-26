@@ -156,7 +156,7 @@ class MTG_TS_Deck_Assembler:
         self.update_label.configure(width=354)
 
     def __init__(self, top=None):
-        os.chdir("..")
+        # os.chdir("..")
         self.init_gui(top)
         self.modify_gui()
 
@@ -226,6 +226,7 @@ class MTG_TS_Deck_Assembler:
 
 
 if __name__ == '__main__':
+    os.chdir("..")
     vp_start_gui()
 
 

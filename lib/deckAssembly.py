@@ -21,6 +21,7 @@ def newEntry(face_url, back_url=conf.BackURL):
 
 
 def createDeck(maindeck, sideboard, cache, filedir):
+
     deck = json.load(open(conf.emptyDeckLoc, "rb"))
 
     maindeck_json = deck["ObjectStates"][0]

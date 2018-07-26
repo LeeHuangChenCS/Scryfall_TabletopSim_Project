@@ -1,4 +1,5 @@
 from lib import deckAssemblerGUI
+import os
 
 
 def main():

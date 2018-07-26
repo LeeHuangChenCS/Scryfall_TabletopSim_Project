@@ -1,5 +1,7 @@
 .idea/
 *.jpg
+Resources/cacheInfo.cpickle
+Resources/savedFolder.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

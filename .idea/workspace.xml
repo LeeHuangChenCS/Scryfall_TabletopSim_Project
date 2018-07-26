@@ -14,7 +14,7 @@
       <file leaf-file-name="deckAssembly.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/deckAssembly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
+            <state relative-caret-position="544">
               <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="imageDownload.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/imageDownload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="255">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="1700">
               <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="e#163#172#0" expanded="true" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="deckAssemblerGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/deckAssemblerGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3586">
+            <state relative-caret-position="3876">
               <caret line="228" column="5" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file leaf-file-name="MTG_TS_DA_1_support.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MTG_TS_DA_1_support.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -83,11 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="run.spec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.spec">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +92,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Run.bat" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Run.bat" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Run.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -134,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/lib/util.py" />
         <option value="$PROJECT_DIR$/lib/deckList.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/unknown_support.py" />
         <option value="$PROJECT_DIR$/lib/test.json" />
         <option value="$PROJECT_DIR$/lib/deckImage.py" />
@@ -147,6 +150,7 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/run.spec" />
         <option value="$PROJECT_DIR$/Run.bat" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -161,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,15 +172,11 @@
               <item name="Scryfall_TabletopSim_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scryfall_TabletopSim_Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Scryfall_TabletopSim_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scryfall_TabletopSim_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,13 +353,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Run.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/deckList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,9 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,25 +554,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Resources/CardImages/Negate.jpg" />
     <entry file="file://$PROJECT_DIR$/lib/Resources/CardImages/Mountain.jpg" />
-    <entry file="file://$PROJECT_DIR$/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.jpg" />
     <entry file="file://$PROJECT_DIR$/lib/deckList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="107" column="10" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/deckAssemblerGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3586">
+        <state relative-caret-position="3876">
           <caret line="228" column="5" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
         </state>
       </provider>
@@ -633,14 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MTG_TS_DA_1_support.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/deckAssembly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
+        <state relative-caret-position="544">
           <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -650,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="1700">
           <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="e#163#172#0" expanded="true" />
@@ -660,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/imageDownload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="255">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -678,7 +666,14 @@
     <entry file="file://$PROJECT_DIR$/Run.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
         </state>
       </provider>
     </entry>

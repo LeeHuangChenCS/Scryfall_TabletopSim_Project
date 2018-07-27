@@ -5,7 +5,7 @@ from lib import configurations as conf
 
 # using the dummy card as a template, create a new card instance
 def newCard(nickname, card_id):
-    dummy_card = json.load(open(conf.dummyCardLoc, "rb"))
+    dummy_card = json.load(open(conf.dummyCardLoc, "r"))
     dummy_card["Nickname"] = nickname
     dummy_card['CardID'] = card_id
 
@@ -13,7 +13,7 @@ def newCard(nickname, card_id):
 
 
 def newEntry(face_url, back_url=conf.BackURL):
-    dummy_entry = json.load(open(conf.dummyEntry, "rb"))
+    dummy_entry = json.load(open(conf.dummyEntry, "r"))
     dummy_entry["FaceURL"] = face_url
     dummy_entry["BackURL"] = back_url
 
@@ -22,7 +22,7 @@ def newEntry(face_url, back_url=conf.BackURL):
 
 def createDeck(maindeck, sideboard, cache, filedir):
 
-    deck = json.load(open(conf.emptyDeckLoc, "rb"))
+    deck = json.load(open(conf.emptyDeckLoc, "r"))
 
     maindeck_json = deck["ObjectStates"][0]
     sideboard_json = deck["ObjectStates"][1]
